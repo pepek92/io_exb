@@ -2,8 +2,8 @@
 	try
 	{
 	 $dsn = "mysql:host=localhost;dbname=io_exb";
-	 $db = new PDO ($dsn, "root", "test");
-	 //print ("Connected\n");
+	 $db = new PDO ($dsn, "root", "root");
+	 print ("Connected\n");
 	}
 	catch (PDOException $e)
 	{
